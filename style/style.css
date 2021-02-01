@@ -1,0 +1,65 @@
+html{
+	background-color: grey;
+	background-image: url(https://je-code.com/exercices/exerciceBonus4-responsive/img/bg2.png);
+}
+
+@media screen and (max-width: 768px){
+	.non-mobile-content{
+		display: none;
+	}
+}
+
+body{
+	font-family: sans-serif;
+	background-color: white;
+	background-image: url(https://je-code.com/exercices/exerciceBonus4-responsive/img/bg.png);
+}
+
+a{
+	outline: none;
+	text-decoration: none;
+}
+
+a:link{
+	color: #DC143C;
+}
+
+a:visited{
+	color: #DC143C;
+}
+
+a:hover{
+	color: blue;
+}
+
+.card{
+	width: 700px;
+	height: 550px;
+	margin: 0px auto;
+	box-shadow: 1px 1px 30px #333333;
+	padding: 10px;
+	margin-top: 100px;
+	border-radius: 10px;
+	padding-left: 20px;
+}
+
+#top2{
+	width: 300px;
+}
+#top{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#photo{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 180px;
+	height: 180px;
+	padding-left: 150px;
+	border-radius: 10px;
+}
+
+
+
+
